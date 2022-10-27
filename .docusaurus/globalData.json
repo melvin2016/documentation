@@ -1,4 +1,14 @@
 {
+  "@cmfcmf/docusaurus-search-local": {
+    "default": {
+      "titleBoost": 5,
+      "contentBoost": 1,
+      "tagsBoost": 3,
+      "parentCategoriesBoost": 2,
+      "indexDocSidebarParentCategories": 0,
+      "maxSearchResults": 8
+    }
+  },
   "docusaurus-theme-redoc": {
     "theme-redoc": {
       "lightTheme": {
@@ -101,16 +111,6 @@
         "menuToggle": true,
         "suppressWarnings": true
       }
-    }
-  },
-  "@cmfcmf/docusaurus-search-local": {
-    "default": {
-      "titleBoost": 5,
-      "contentBoost": 1,
-      "tagsBoost": 3,
-      "parentCategoriesBoost": 2,
-      "indexDocSidebarParentCategories": 0,
-      "maxSearchResults": 8
     }
   },
   "docusaurus-plugin-redoc": {
