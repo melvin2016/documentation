@@ -1,0 +1,22 @@
+{
+  "unversionedId": "dev-docs/api/admin-panel-api",
+  "id": "dev-docs/api/admin-panel-api",
+  "title": "Admin Panel API for plugins",
+  "description": "A Strapi plugin can interact with both the back end or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's admin panel.",
+  "source": "@site/docs/dev-docs/api/admin-panel-api.md",
+  "sourceDirName": "dev-docs/api",
+  "slug": "/dev-docs/api/admin-panel-api",
+  "permalink": "/docs/next/dev-docs/api/admin-panel-api",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/api/admin-panel-api.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "admin-panel-api"
+  },
+  "sidebar": "devDocsSidebar",
+  "previous": {
+    "title": "Middlewares",
+    "permalink": "/docs/next/dev-docs/development/backend-customization/middlewares"
+  }
+}

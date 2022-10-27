@@ -1,0 +1,20 @@
+{
+  "unversionedId": "user-docs/content-types-builder/managing-content-types",
+  "id": "version-0.1.0/user-docs/content-types-builder/managing-content-types",
+  "title": "Managing content-types",
+  "description": "The Content-type Builder allows to manage any existing content-type or component, even if it is already being used in the Content Manager. They can only be managed one at a time.",
+  "source": "@site/versioned_docs/version-0.1.0/user-docs/content-types-builder/managing-content-types.md",
+  "sourceDirName": "user-docs/content-types-builder",
+  "slug": "/user-docs/content-types-builder/managing-content-types",
+  "permalink": "/docs/user-docs/content-types-builder/managing-content-types",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/content-types-builder/managing-content-types.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {},
+  "sidebar": "userDocsSidebar",
+  "previous": {
+    "title": "Configuring fields for content-types",
+    "permalink": "/docs/user-docs/content-types-builder/configuring-fields-content-type"
+  }
+}

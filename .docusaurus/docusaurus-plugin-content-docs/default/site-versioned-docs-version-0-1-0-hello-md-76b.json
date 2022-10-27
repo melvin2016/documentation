@@ -1,0 +1,25 @@
+{
+  "unversionedId": "hello",
+  "id": "version-0.1.0/hello",
+  "title": "Welcome to the Strapi Developer Docs!",
+  "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
+  "source": "@site/versioned_docs/version-0.1.0/hello.md",
+  "sourceDirName": ".",
+  "slug": "/hello",
+  "permalink": "/docs/hello",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/hello.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Welcome!",
+    "displayed_sidebar": "devDocsSidebar",
+    "sidebar_position": 1
+  },
+  "sidebar": "devDocsSidebar",
+  "next": {
+    "title": "Controllers",
+    "permalink": "/docs/dev-docs/development/backend-customization/controllers"
+  }
+}

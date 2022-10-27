@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-docs/development/backend-customization/middlewares",
+  "id": "version-0.1.0/dev-docs/development/backend-customization/middlewares",
+  "title": "Middlewares customization",
+  "description": "In Strapi, 2 middleware concepts coexist:",
+  "source": "@site/versioned_docs/version-0.1.0/dev-docs/development/backend-customization/middlewares.md",
+  "sourceDirName": "dev-docs/development/backend-customization",
+  "slug": "/dev-docs/development/backend-customization/middlewares",
+  "permalink": "/docs/dev-docs/development/backend-customization/middlewares",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/dev-docs/development/backend-customization/middlewares.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {
+    "sidebar_label": "Middlewares"
+  },
+  "sidebar": "devDocsSidebar",
+  "previous": {
+    "title": "Controllers",
+    "permalink": "/docs/dev-docs/development/backend-customization/controllers"
+  },
+  "next": {
+    "title": "Admin Panel API for plugins",
+    "permalink": "/docs/dev-docs/api/admin-panel-api"
+  }
+}

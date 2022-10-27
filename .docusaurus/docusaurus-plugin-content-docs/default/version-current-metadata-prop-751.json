@@ -1,0 +1,163 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": "unreleased",
+  "badge": true,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": false,
+  "docsSidebars": {
+    "devDocsSidebar": [
+      {
+        "type": "link",
+        "label": "Welcome!",
+        "href": "/docs/next/hello",
+        "docId": "hello"
+      },
+      {
+        "type": "category",
+        "label": "🔧 Development",
+        "items": [
+          {
+            "type": "category",
+            "label": "Back-end customization",
+            "items": [
+              {
+                "type": "link",
+                "label": "Controllers",
+                "href": "/docs/next/dev-docs/development/backend-customization/controllers",
+                "docId": "dev-docs/development/backend-customization/controllers"
+              },
+              {
+                "type": "link",
+                "label": "Middlewares",
+                "href": "/docs/next/dev-docs/development/backend-customization/middlewares",
+                "docId": "dev-docs/development/backend-customization/middlewares"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "💻 APIs",
+        "items": [
+          {
+            "type": "link",
+            "label": "Admin Panel API for plugins",
+            "href": "/docs/next/dev-docs/api/admin-panel-api",
+            "docId": "dev-docs/api/admin-panel-api"
+          },
+          {
+            "type": "link",
+            "label": "REST API",
+            "href": "/openapi"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ],
+    "userDocsSidebar": [
+      {
+        "type": "link",
+        "label": "Welcome!",
+        "href": "/docs/next/user-docs/intro",
+        "docId": "user-docs/intro"
+      },
+      {
+        "type": "category",
+        "label": "Content-type Builder",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction to the Content-type Builder",
+            "href": "/docs/next/user-docs/content-types-builder/introduction-to-content-types-builder",
+            "docId": "user-docs/content-types-builder/introduction-to-content-types-builder"
+          },
+          {
+            "type": "link",
+            "label": "Creating content-types",
+            "href": "/docs/next/user-docs/content-types-builder/creating-new-content-type",
+            "docId": "user-docs/content-types-builder/creating-new-content-type"
+          },
+          {
+            "type": "link",
+            "label": "Configuring fields for content-types",
+            "href": "/docs/next/user-docs/content-types-builder/configuring-fields-content-type",
+            "docId": "user-docs/content-types-builder/configuring-fields-content-type"
+          },
+          {
+            "type": "link",
+            "label": "Managing content-types",
+            "href": "/docs/next/user-docs/content-types-builder/managing-content-types",
+            "docId": "user-docs/content-types-builder/managing-content-types"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "dev-docs/api/admin-panel-api": {
+      "id": "dev-docs/api/admin-panel-api",
+      "title": "Admin Panel API for plugins",
+      "description": "A Strapi plugin can interact with both the back end or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's admin panel.",
+      "sidebar": "devDocsSidebar"
+    },
+    "dev-docs/development/backend-customization/controllers": {
+      "id": "dev-docs/development/backend-customization/controllers",
+      "title": "Controllers",
+      "description": "Controllers are JavaScript files that contain a set of methods, called actions, reached by the client according to the requested route. Whenever a client requests the route, the action performs the business logic code and sends back the response. Controllers represent the C in the model-view-controller (MVC) pattern.",
+      "sidebar": "devDocsSidebar"
+    },
+    "dev-docs/development/backend-customization/middlewares": {
+      "id": "dev-docs/development/backend-customization/middlewares",
+      "title": "Middlewares customization",
+      "description": "In Strapi, 2 middleware concepts coexist:",
+      "sidebar": "devDocsSidebar"
+    },
+    "hello": {
+      "id": "hello",
+      "title": "Welcome to the Strapi Developer Docs!",
+      "description": "You're reading the bleeding edge version of our documentation. Some features might still be buggy.",
+      "sidebar": "devDocsSidebar"
+    },
+    "user-docs/content-types-builder/configuring-fields-content-type": {
+      "id": "user-docs/content-types-builder/configuring-fields-content-type",
+      "title": "Configuring fields for content-types",
+      "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+      "sidebar": "userDocsSidebar"
+    },
+    "user-docs/content-types-builder/creating-new-content-type": {
+      "id": "user-docs/content-types-builder/creating-new-content-type",
+      "title": "Creating content-types",
+      "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+      "sidebar": "userDocsSidebar"
+    },
+    "user-docs/content-types-builder/introduction-to-content-types-builder": {
+      "id": "user-docs/content-types-builder/introduction-to-content-types-builder",
+      "title": "Introduction to the Content-type Builder",
+      "description": "The Content-type Builder is a core plugin of Strapi. It is a feature that is always activated by default and cannot be deactivated. The Content-type Builder is however only accessible when the application is in a development environment.",
+      "sidebar": "userDocsSidebar"
+    },
+    "user-docs/content-types-builder/managing-content-types": {
+      "id": "user-docs/content-types-builder/managing-content-types",
+      "title": "Managing content-types",
+      "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+      "sidebar": "userDocsSidebar"
+    },
+    "user-docs/intro": {
+      "id": "user-docs/intro",
+      "title": "Welcome to the Strapi User Guide!",
+      "description": "This user guide contains the functional documentation related to all features available in the admin panel of your Strapi application.",
+      "sidebar": "userDocsSidebar"
+    }
+  }
+}

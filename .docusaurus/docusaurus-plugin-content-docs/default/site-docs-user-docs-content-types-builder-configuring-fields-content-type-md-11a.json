@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-docs/content-types-builder/configuring-fields-content-type",
+  "id": "user-docs/content-types-builder/configuring-fields-content-type",
+  "title": "Configuring fields for content-types",
+  "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+  "source": "@site/docs/user-docs/content-types-builder/configuring-fields-content-type.md",
+  "sourceDirName": "user-docs/content-types-builder",
+  "slug": "/user-docs/content-types-builder/configuring-fields-content-type",
+  "permalink": "/docs/next/user-docs/content-types-builder/configuring-fields-content-type",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/docs/user-docs/content-types-builder/configuring-fields-content-type.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "userDocsSidebar",
+  "previous": {
+    "title": "Creating content-types",
+    "permalink": "/docs/next/user-docs/content-types-builder/creating-new-content-type"
+  },
+  "next": {
+    "title": "Managing content-types",
+    "permalink": "/docs/next/user-docs/content-types-builder/managing-content-types"
+  }
+}

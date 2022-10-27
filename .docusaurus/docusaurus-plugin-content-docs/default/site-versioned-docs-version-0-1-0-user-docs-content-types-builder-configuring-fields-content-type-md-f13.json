@@ -1,0 +1,27 @@
+{
+  "unversionedId": "user-docs/content-types-builder/configuring-fields-content-type",
+  "id": "version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type",
+  "title": "Configuring fields for content-types",
+  "description": "Content-types are composed of one or several fields. Each field is designed to contain specific kind of data, filled up in the Content Manager (see Writing content).",
+  "source": "@site/versioned_docs/version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type.md",
+  "sourceDirName": "user-docs/content-types-builder",
+  "slug": "/user-docs/content-types-builder/configuring-fields-content-type",
+  "permalink": "/docs/user-docs/content-types-builder/configuring-fields-content-type",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "userDocsSidebar",
+  "previous": {
+    "title": "Creating content-types",
+    "permalink": "/docs/user-docs/content-types-builder/creating-new-content-type"
+  },
+  "next": {
+    "title": "Managing content-types",
+    "permalink": "/docs/user-docs/content-types-builder/managing-content-types"
+  }
+}

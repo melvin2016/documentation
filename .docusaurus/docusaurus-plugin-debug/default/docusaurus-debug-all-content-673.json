@@ -1,0 +1,1769 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": "unreleased",
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs/next",
+          "tagsPath": "/docs/next/tags",
+          "editUrl": "https://github.com/pwizla/documentation/docs",
+          "editUrlLocalized": "https://github.com/pwizla/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": false,
+          "sidebarFilePath": "/Users/piwi/code/documentation/sidebars.js",
+          "contentPath": "/Users/piwi/code/documentation/docs",
+          "contentPathLocalized": "/Users/piwi/code/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "dev-docs/api/admin-panel-api",
+              "id": "dev-docs/api/admin-panel-api",
+              "title": "Admin Panel API for plugins",
+              "description": "A Strapi plugin can interact with both the back end or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's admin panel.",
+              "source": "@site/docs/dev-docs/api/admin-panel-api.md",
+              "sourceDirName": "dev-docs/api",
+              "slug": "/dev-docs/api/admin-panel-api",
+              "permalink": "/docs/next/dev-docs/api/admin-panel-api",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/api/admin-panel-api.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin-panel-api"
+              },
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Middlewares",
+                "permalink": "/docs/next/dev-docs/development/backend-customization/middlewares"
+              }
+            },
+            {
+              "unversionedId": "dev-docs/development/backend-customization/controllers",
+              "id": "dev-docs/development/backend-customization/controllers",
+              "title": "Controllers",
+              "description": "Controllers are JavaScript files that contain a set of methods, called actions, reached by the client according to the requested route. Whenever a client requests the route, the action performs the business logic code and sends back the response. Controllers represent the C in the model-view-controller (MVC) pattern.",
+              "source": "@site/docs/dev-docs/development/backend-customization/controllers.md",
+              "sourceDirName": "dev-docs/development/backend-customization",
+              "slug": "/dev-docs/development/backend-customization/controllers",
+              "permalink": "/docs/next/dev-docs/development/backend-customization/controllers",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/development/backend-customization/controllers.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/next/hello"
+              },
+              "next": {
+                "title": "Middlewares",
+                "permalink": "/docs/next/dev-docs/development/backend-customization/middlewares"
+              }
+            },
+            {
+              "unversionedId": "dev-docs/development/backend-customization/middlewares",
+              "id": "dev-docs/development/backend-customization/middlewares",
+              "title": "Middlewares customization",
+              "description": "In Strapi, 2 middleware concepts coexist:",
+              "source": "@site/docs/dev-docs/development/backend-customization/middlewares.md",
+              "sourceDirName": "dev-docs/development/backend-customization",
+              "slug": "/dev-docs/development/backend-customization/middlewares",
+              "permalink": "/docs/next/dev-docs/development/backend-customization/middlewares",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/development/backend-customization/middlewares.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "Middlewares"
+              },
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Controllers",
+                "permalink": "/docs/next/dev-docs/development/backend-customization/controllers"
+              },
+              "next": {
+                "title": "Admin Panel API for plugins",
+                "permalink": "/docs/next/dev-docs/api/admin-panel-api"
+              }
+            },
+            {
+              "unversionedId": "hello",
+              "id": "hello",
+              "title": "Welcome to the Strapi Developer Docs!",
+              "description": "You're reading the bleeding edge version of our documentation. Some features might still be buggy.",
+              "source": "@site/docs/hello.md",
+              "sourceDirName": ".",
+              "slug": "/hello",
+              "permalink": "/docs/next/hello",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/hello.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Welcome!",
+                "displayed_sidebar": "devDocsSidebar",
+                "sidebar_position": 1
+              },
+              "sidebar": "devDocsSidebar",
+              "next": {
+                "title": "Controllers",
+                "permalink": "/docs/next/dev-docs/development/backend-customization/controllers"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/configuring-fields-content-type",
+              "id": "user-docs/content-types-builder/configuring-fields-content-type",
+              "title": "Configuring fields for content-types",
+              "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+              "source": "@site/docs/user-docs/content-types-builder/configuring-fields-content-type.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/configuring-fields-content-type",
+              "permalink": "/docs/next/user-docs/content-types-builder/configuring-fields-content-type",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/user-docs/content-types-builder/configuring-fields-content-type.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Creating content-types",
+                "permalink": "/docs/next/user-docs/content-types-builder/creating-new-content-type"
+              },
+              "next": {
+                "title": "Managing content-types",
+                "permalink": "/docs/next/user-docs/content-types-builder/managing-content-types"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/creating-new-content-type",
+              "id": "user-docs/content-types-builder/creating-new-content-type",
+              "title": "Creating content-types",
+              "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+              "source": "@site/docs/user-docs/content-types-builder/creating-new-content-type.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/creating-new-content-type",
+              "permalink": "/docs/next/user-docs/content-types-builder/creating-new-content-type",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/user-docs/content-types-builder/creating-new-content-type.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Introduction to the Content-type Builder",
+                "permalink": "/docs/next/user-docs/content-types-builder/introduction-to-content-types-builder"
+              },
+              "next": {
+                "title": "Configuring fields for content-types",
+                "permalink": "/docs/next/user-docs/content-types-builder/configuring-fields-content-type"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/introduction-to-content-types-builder",
+              "id": "user-docs/content-types-builder/introduction-to-content-types-builder",
+              "title": "Introduction to the Content-type Builder",
+              "description": "The Content-type Builder is a core plugin of Strapi. It is a feature that is always activated by default and cannot be deactivated. The Content-type Builder is however only accessible when the application is in a development environment.",
+              "source": "@site/docs/user-docs/content-types-builder/introduction-to-content-types-builder.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/introduction-to-content-types-builder",
+              "permalink": "/docs/next/user-docs/content-types-builder/introduction-to-content-types-builder",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/user-docs/content-types-builder/introduction-to-content-types-builder.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/next/user-docs/intro"
+              },
+              "next": {
+                "title": "Creating content-types",
+                "permalink": "/docs/next/user-docs/content-types-builder/creating-new-content-type"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/managing-content-types",
+              "id": "user-docs/content-types-builder/managing-content-types",
+              "title": "Managing content-types",
+              "description": "The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.",
+              "source": "@site/docs/user-docs/content-types-builder/managing-content-types.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/managing-content-types",
+              "permalink": "/docs/next/user-docs/content-types-builder/managing-content-types",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/user-docs/content-types-builder/managing-content-types.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Configuring fields for content-types",
+                "permalink": "/docs/next/user-docs/content-types-builder/configuring-fields-content-type"
+              }
+            },
+            {
+              "unversionedId": "user-docs/intro",
+              "id": "user-docs/intro",
+              "title": "Welcome to the Strapi User Guide!",
+              "description": "This user guide contains the functional documentation related to all features available in the admin panel of your Strapi application.",
+              "source": "@site/docs/user-docs/intro.md",
+              "sourceDirName": "user-docs",
+              "slug": "/user-docs/intro",
+              "permalink": "/docs/next/user-docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/user-docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "displayed_sidebar": "userDocsSidebar",
+                "sidebar_label": "Welcome!"
+              },
+              "sidebar": "userDocsSidebar",
+              "next": {
+                "title": "Introduction to the Content-type Builder",
+                "permalink": "/docs/next/user-docs/content-types-builder/introduction-to-content-types-builder"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "devDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "hello"
+              },
+              {
+                "type": "category",
+                "label": "🔧 Development",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Back-end customization",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "dev-docs/development/backend-customization/controllers"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "dev-docs/development/backend-customization/middlewares"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "💻 APIs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "dev-docs/api/admin-panel-api"
+                  },
+                  {
+                    "type": "link",
+                    "label": "REST API",
+                    "href": "/openapi"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "userDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "user-docs/intro"
+              },
+              {
+                "type": "category",
+                "label": "Content-type Builder",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "user-docs/content-types-builder/introduction-to-content-types-builder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-docs/content-types-builder/creating-new-content-type"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-docs/content-types-builder/configuring-fields-content-type"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "user-docs/content-types-builder/managing-content-types"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "0.1.0",
+          "label": "0.1.0",
+          "banner": null,
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-0.1.0",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0",
+          "editUrlLocalized": "https://github.com/pwizla/documentation/i18n/en/docusaurus-plugin-content-docs/version-0.1.0",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/piwi/code/documentation/versioned_sidebars/version-0.1.0-sidebars.json",
+          "contentPath": "/Users/piwi/code/documentation/versioned_docs/version-0.1.0",
+          "contentPathLocalized": "/Users/piwi/code/documentation/i18n/en/docusaurus-plugin-content-docs/version-0.1.0",
+          "docs": [
+            {
+              "unversionedId": "dev-docs/api/admin-panel-api",
+              "id": "version-0.1.0/dev-docs/api/admin-panel-api",
+              "title": "Admin Panel API for plugins",
+              "description": "A Strapi plugin can interact with both the back end or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's admin panel.",
+              "source": "@site/versioned_docs/version-0.1.0/dev-docs/api/admin-panel-api.md",
+              "sourceDirName": "dev-docs/api",
+              "slug": "/dev-docs/api/admin-panel-api",
+              "permalink": "/docs/dev-docs/api/admin-panel-api",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/dev-docs/api/admin-panel-api.md",
+              "tags": [],
+              "version": "0.1.0",
+              "frontMatter": {
+                "id": "admin-panel-api"
+              },
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Middlewares",
+                "permalink": "/docs/dev-docs/development/backend-customization/middlewares"
+              }
+            },
+            {
+              "unversionedId": "dev-docs/development/backend-customization/controllers",
+              "id": "version-0.1.0/dev-docs/development/backend-customization/controllers",
+              "title": "Controllers",
+              "description": "Controllers are JavaScript files that contain a set of methods, called actions, reached by the client according to the requested route. Whenever a client requests the route, the action performs the business logic code and sends back the response. Controllers represent the C in the model-view-controller (MVC) pattern.",
+              "source": "@site/versioned_docs/version-0.1.0/dev-docs/development/backend-customization/controllers.md",
+              "sourceDirName": "dev-docs/development/backend-customization",
+              "slug": "/dev-docs/development/backend-customization/controllers",
+              "permalink": "/docs/dev-docs/development/backend-customization/controllers",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/dev-docs/development/backend-customization/controllers.md",
+              "tags": [],
+              "version": "0.1.0",
+              "frontMatter": {},
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/hello"
+              },
+              "next": {
+                "title": "Middlewares",
+                "permalink": "/docs/dev-docs/development/backend-customization/middlewares"
+              }
+            },
+            {
+              "unversionedId": "dev-docs/development/backend-customization/middlewares",
+              "id": "version-0.1.0/dev-docs/development/backend-customization/middlewares",
+              "title": "Middlewares customization",
+              "description": "In Strapi, 2 middleware concepts coexist:",
+              "source": "@site/versioned_docs/version-0.1.0/dev-docs/development/backend-customization/middlewares.md",
+              "sourceDirName": "dev-docs/development/backend-customization",
+              "slug": "/dev-docs/development/backend-customization/middlewares",
+              "permalink": "/docs/dev-docs/development/backend-customization/middlewares",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/dev-docs/development/backend-customization/middlewares.md",
+              "tags": [],
+              "version": "0.1.0",
+              "frontMatter": {
+                "sidebar_label": "Middlewares"
+              },
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Controllers",
+                "permalink": "/docs/dev-docs/development/backend-customization/controllers"
+              },
+              "next": {
+                "title": "Admin Panel API for plugins",
+                "permalink": "/docs/dev-docs/api/admin-panel-api"
+              }
+            },
+            {
+              "unversionedId": "hello",
+              "id": "version-0.1.0/hello",
+              "title": "Welcome to the Strapi Developer Docs!",
+              "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
+              "source": "@site/versioned_docs/version-0.1.0/hello.md",
+              "sourceDirName": ".",
+              "slug": "/hello",
+              "permalink": "/docs/hello",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/hello.md",
+              "tags": [],
+              "version": "0.1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Welcome!",
+                "displayed_sidebar": "devDocsSidebar",
+                "sidebar_position": 1
+              },
+              "sidebar": "devDocsSidebar",
+              "next": {
+                "title": "Controllers",
+                "permalink": "/docs/dev-docs/development/backend-customization/controllers"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/configuring-fields-content-type",
+              "id": "version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type",
+              "title": "Configuring fields for content-types",
+              "description": "Content-types are composed of one or several fields. Each field is designed to contain specific kind of data, filled up in the Content Manager (see Writing content).",
+              "source": "@site/versioned_docs/version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/configuring-fields-content-type",
+              "permalink": "/docs/user-docs/content-types-builder/configuring-fields-content-type",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type.md",
+              "tags": [],
+              "version": "0.1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Creating content-types",
+                "permalink": "/docs/user-docs/content-types-builder/creating-new-content-type"
+              },
+              "next": {
+                "title": "Managing content-types",
+                "permalink": "/docs/user-docs/content-types-builder/managing-content-types"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/creating-new-content-type",
+              "id": "version-0.1.0/user-docs/content-types-builder/creating-new-content-type",
+              "title": "Creating content-types",
+              "description": "The Content-type Builder allows to create new content-types: single and collection types. Although they are not proper content-types as they cannot exist independently, components can also be created through the Content-type Builder, in the same way as collection and single types.",
+              "source": "@site/versioned_docs/version-0.1.0/user-docs/content-types-builder/creating-new-content-type.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/creating-new-content-type",
+              "permalink": "/docs/user-docs/content-types-builder/creating-new-content-type",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/content-types-builder/creating-new-content-type.md",
+              "tags": [],
+              "version": "0.1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Introduction to the Content-type Builder",
+                "permalink": "/docs/user-docs/content-types-builder/introduction-to-content-types-builder"
+              },
+              "next": {
+                "title": "Configuring fields for content-types",
+                "permalink": "/docs/user-docs/content-types-builder/configuring-fields-content-type"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/introduction-to-content-types-builder",
+              "id": "version-0.1.0/user-docs/content-types-builder/introduction-to-content-types-builder",
+              "title": "Introduction to the Content-type Builder",
+              "description": "The Content-type Builder is a core plugin of Strapi. It is a feature that is always activated by default and cannot be deactivated. The Content-type Builder is however only accessible when the application is in a development environment.",
+              "source": "@site/versioned_docs/version-0.1.0/user-docs/content-types-builder/introduction-to-content-types-builder.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/introduction-to-content-types-builder",
+              "permalink": "/docs/user-docs/content-types-builder/introduction-to-content-types-builder",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/content-types-builder/introduction-to-content-types-builder.md",
+              "tags": [],
+              "version": "0.1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/user-docs/intro"
+              },
+              "next": {
+                "title": "Creating content-types",
+                "permalink": "/docs/user-docs/content-types-builder/creating-new-content-type"
+              }
+            },
+            {
+              "unversionedId": "user-docs/content-types-builder/managing-content-types",
+              "id": "version-0.1.0/user-docs/content-types-builder/managing-content-types",
+              "title": "Managing content-types",
+              "description": "The Content-type Builder allows to manage any existing content-type or component, even if it is already being used in the Content Manager. They can only be managed one at a time.",
+              "source": "@site/versioned_docs/version-0.1.0/user-docs/content-types-builder/managing-content-types.md",
+              "sourceDirName": "user-docs/content-types-builder",
+              "slug": "/user-docs/content-types-builder/managing-content-types",
+              "permalink": "/docs/user-docs/content-types-builder/managing-content-types",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/content-types-builder/managing-content-types.md",
+              "tags": [],
+              "version": "0.1.0",
+              "frontMatter": {},
+              "sidebar": "userDocsSidebar",
+              "previous": {
+                "title": "Configuring fields for content-types",
+                "permalink": "/docs/user-docs/content-types-builder/configuring-fields-content-type"
+              }
+            },
+            {
+              "unversionedId": "user-docs/intro",
+              "id": "version-0.1.0/user-docs/intro",
+              "title": "Welcome to the Strapi User Guide!",
+              "description": "This user guide contains the functional documentation related to all features available in the admin panel of your Strapi application.",
+              "source": "@site/versioned_docs/version-0.1.0/user-docs/intro.md",
+              "sourceDirName": "user-docs",
+              "slug": "/user-docs/intro",
+              "permalink": "/docs/user-docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/intro.md",
+              "tags": [],
+              "version": "0.1.0",
+              "frontMatter": {
+                "displayed_sidebar": "userDocsSidebar",
+                "sidebar_label": "Welcome!"
+              },
+              "sidebar": "userDocsSidebar",
+              "next": {
+                "title": "Introduction to the Content-type Builder",
+                "permalink": "/docs/user-docs/content-types-builder/introduction-to-content-types-builder"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "devDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "hello"
+              },
+              {
+                "type": "category",
+                "label": "🔧 Development",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Back-end customization",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "dev-docs/development/backend-customization/controllers"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "dev-docs/development/backend-customization/middlewares"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "💻 APIs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "dev-docs/api/admin-panel-api"
+                  },
+                  {
+                    "type": "link",
+                    "label": "REST API",
+                    "href": "/openapi"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "userDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "user-docs/intro"
+              },
+              {
+                "type": "category",
+                "label": "Content-type Builder",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-0.1.0/user-docs/content-types-builder/introduction-to-content-types-builder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.1.0/user-docs/content-types-builder/creating-new-content-type"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.1.0/user-docs/content-types-builder/configuring-fields-content-type"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.1.0/user-docs/content-types-builder/managing-content-types"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "greetings",
+          "metadata": {
+            "permalink": "/blog/greetings",
+            "editUrl": "https://strapi.io/blog/blog/2022-09-15-greetings.md",
+            "source": "@site/blog/2022-09-15-greetings.md",
+            "title": "Greetings!",
+            "description": "Congratulations, you have made your first post!",
+            "date": "2022-09-15T00:00:00.000Z",
+            "formattedDate": "September 15, 2022",
+            "tags": [
+              {
+                "label": "greetings",
+                "permalink": "/blog/tags/greetings"
+              }
+            ],
+            "readingTime": 0.1,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Joel Marcey",
+                "title": "Co-creator of Docusaurus 1",
+                "url": "https://github.com/JoelMarcey",
+                "image_url": "https://github.com/JoelMarcey.png",
+                "imageURL": "https://github.com/JoelMarcey.png"
+              },
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "image_url": "https://github.com/slorber.png",
+                "imageURL": "https://github.com/slorber.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "greetings",
+              "title": "Greetings!",
+              "authors": [
+                {
+                  "name": "Joel Marcey",
+                  "title": "Co-creator of Docusaurus 1",
+                  "url": "https://github.com/JoelMarcey",
+                  "image_url": "https://github.com/JoelMarcey.png",
+                  "imageURL": "https://github.com/JoelMarcey.png"
+                },
+                {
+                  "name": "Sébastien Lorber",
+                  "title": "Docusaurus maintainer",
+                  "url": "https://sebastienlorber.com",
+                  "image_url": "https://github.com/slorber.png",
+                  "imageURL": "https://github.com/slorber.png"
+                }
+              ],
+              "tags": [
+                "greetings"
+              ]
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "Congratulations, you have made your first post!\n\nFeel free to play around and edit this post as much you like."
+        },
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://strapi.io/blog/blog/2021-08-26-welcome/index.md",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Greetings!",
+              "permalink": "/blog/greetings"
+            },
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "editUrl": "https://strapi.io/blog/blog/2021-08-01-mdx-blog-post.mdx",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "editUrl": "https://strapi.io/blog/blog/2019-05-29-long-blog-post.md",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "editUrl": "https://strapi.io/blog/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "greetings",
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 5,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/greetings": {
+          "label": "greetings",
+          "items": [
+            "greetings"
+          ],
+          "permalink": "/blog/tags/greetings",
+          "pages": [
+            {
+              "items": [
+                "greetings"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/greetings",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/my-react-page",
+        "source": "@site/src/pages/my-react-page.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-redoc": {
+    "plugin-redoc-0": {
+      "converted": {
+        "openapi": "3.0.0",
+        "info": {
+          "title": "Strapi REST API",
+          "description": "The REST API allows accessing the content-types through API endpoints. Strapi automatically creates API endpoints when a content-type is created. API parameters can be used when querying API endpoints to refine the results.\n",
+          "version": "4.3.9"
+        },
+        "servers": [
+          {
+            "url": "https://localhost:1337/api",
+            "variables": {
+              "environment": {
+                "default": "api",
+                "enum": [
+                  "api",
+                  "api.dev",
+                  "api.staging"
+                ]
+              },
+              "protocol": {
+                "default": "https",
+                "enum": [
+                  "http",
+                  "https"
+                ]
+              }
+            }
+          }
+        ],
+        "paths": {
+          "/api/:pluralposts/{pluralApiId}": {
+            "get": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Return a post",
+              "description": "Return a post with postId equals to id.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A blog posts in JSON format",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Entry"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "put": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Update a post",
+              "description": "A  complete replacement of a post with id.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/Entry"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Updated the post completely."
+                }
+              }
+            },
+            "patch": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Update a post",
+              "description": "Update the post with id partially.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/PatchPost"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Updated the post partially."
+                }
+              }
+            },
+            "delete": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Deletes a post",
+              "description": "Deletes the post with id.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "The resource was deleted successfully."
+                }
+              }
+            }
+          },
+          "/comments": {
+            "get": {
+              "tags": [
+                "Comments"
+              ],
+              "summary": "Return comments",
+              "description": "Return comments on a post with postId={id}.",
+              "parameters": [
+                {
+                  "in": "query",
+                  "name": "postId",
+                  "schema": {
+                    "type": "string"
+                  },
+                  "description": "The postId which we want the comments"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A list of comments JSON format",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Comments"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "components": {
+          "schemas": {
+            "Entries": {
+              "description": "An array of post objects.",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Entry"
+              },
+              "example": [
+                {
+                  "userId": 1,
+                  "id": 1,
+                  "title": "First post",
+                  "body": "This is the first post body."
+                },
+                {
+                  "userId": 1,
+                  "id": 2,
+                  "title": "Second post",
+                  "body": "The second post content."
+                },
+                {
+                  "userId": 1,
+                  "id": 3,
+                  "title": "Another post",
+                  "body": "Other post content"
+                }
+              ]
+            },
+            "Entry": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "The post id."
+                },
+                "userId": {
+                  "type": "string",
+                  "description": "The post userId."
+                },
+                "title": {
+                  "type": "string",
+                  "description": "The title of the post"
+                },
+                "body": {
+                  "type": "string",
+                  "description": "The body content of the post"
+                }
+              },
+              "required": [
+                "id",
+                "userId",
+                "title",
+                "body"
+              ],
+              "example": {
+                "userId": 1,
+                "id": 1,
+                "title": "The First Post",
+                "body": "we are building a blog post API using OpenAPI Specification."
+              }
+            },
+            "PatchPost": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "The post id."
+                },
+                "userId": {
+                  "type": "string",
+                  "description": "The post userId."
+                },
+                "title": {
+                  "type": "string",
+                  "description": "The title of the post"
+                },
+                "body": {
+                  "type": "string",
+                  "description": "The body content of the post"
+                }
+              }
+            },
+            "Comments": {
+              "description": "The array of comment objects",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Comment"
+              },
+              "example": [
+                {
+                  "postId": 1,
+                  "id": 1,
+                  "name": "id labore ex et quam laborum",
+                  "email": "Eliseo@gardner.biz",
+                  "body": "laudantium enim quasi est quidem magnam voluptate"
+                },
+                {
+                  "postId": 1,
+                  "id": 2,
+                  "name": "quo vero reiciendis velit similique earum",
+                  "email": "Jayne_Kuhic@sydney.com",
+                  "body": "est natus enim nihil est dolore omnis voluptatem"
+                },
+                {
+                  "postId": 1,
+                  "id": 3,
+                  "name": "odio adipisci rerum aut animi",
+                  "email": "Nikita@garfield.biz",
+                  "body": "quia molestiae reprehenderit quasi aspernatur"
+                }
+              ]
+            },
+            "Comment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "The comment id."
+                },
+                "postId": {
+                  "type": "string",
+                  "description": "The comment postId."
+                },
+                "name": {
+                  "type": "string",
+                  "description": "The name of the comment."
+                },
+                "email": {
+                  "type": "string",
+                  "description": "The email of the user who posted the comment."
+                },
+                "body": {
+                  "type": "string",
+                  "description": "The comment body."
+                }
+              },
+              "example": {
+                "id": 1,
+                "postId": 1,
+                "name": "The first comment",
+                "email": "example@example.com",
+                "body": "This is the first comment!"
+              }
+            }
+          }
+        }
+      },
+      "bundle": {
+        "openapi": "3.0.0",
+        "info": {
+          "title": "Strapi REST API",
+          "description": "The REST API allows accessing the content-types through API endpoints. Strapi automatically creates API endpoints when a content-type is created. API parameters can be used when querying API endpoints to refine the results.\n",
+          "version": "4.3.9"
+        },
+        "servers": [
+          {
+            "url": "https://localhost:1337/api",
+            "variables": {
+              "environment": {
+                "default": "api",
+                "enum": [
+                  "api",
+                  "api.dev",
+                  "api.staging"
+                ]
+              },
+              "protocol": {
+                "default": "https",
+                "enum": [
+                  "http",
+                  "https"
+                ]
+              }
+            }
+          }
+        ],
+        "paths": {
+          "/api/:pluralposts/{pluralApiId}": {
+            "get": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Return a post",
+              "description": "Return a post with postId equals to id.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A blog posts in JSON format",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Entry"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "put": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Update a post",
+              "description": "A  complete replacement of a post with id.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/Entry"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Updated the post completely."
+                }
+              }
+            },
+            "patch": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Update a post",
+              "description": "Update the post with id partially.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/PatchPost"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "Updated the post partially."
+                }
+              }
+            },
+            "delete": {
+              "tags": [
+                "Posts"
+              ],
+              "summary": "Deletes a post",
+              "description": "Deletes the post with id.",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "description": "The postId requested by user.",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "The resource was deleted successfully."
+                }
+              }
+            }
+          },
+          "/comments": {
+            "get": {
+              "tags": [
+                "Comments"
+              ],
+              "summary": "Return comments",
+              "description": "Return comments on a post with postId={id}.",
+              "parameters": [
+                {
+                  "in": "query",
+                  "name": "postId",
+                  "schema": {
+                    "type": "string"
+                  },
+                  "description": "The postId which we want the comments"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A list of comments JSON format",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Comments"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "components": {
+          "schemas": {
+            "Entries": {
+              "description": "An array of post objects.",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Entry"
+              },
+              "example": [
+                {
+                  "userId": 1,
+                  "id": 1,
+                  "title": "First post",
+                  "body": "This is the first post body."
+                },
+                {
+                  "userId": 1,
+                  "id": 2,
+                  "title": "Second post",
+                  "body": "The second post content."
+                },
+                {
+                  "userId": 1,
+                  "id": 3,
+                  "title": "Another post",
+                  "body": "Other post content"
+                }
+              ]
+            },
+            "Entry": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "The post id."
+                },
+                "userId": {
+                  "type": "string",
+                  "description": "The post userId."
+                },
+                "title": {
+                  "type": "string",
+                  "description": "The title of the post"
+                },
+                "body": {
+                  "type": "string",
+                  "description": "The body content of the post"
+                }
+              },
+              "required": [
+                "id",
+                "userId",
+                "title",
+                "body"
+              ],
+              "example": {
+                "userId": 1,
+                "id": 1,
+                "title": "The First Post",
+                "body": "we are building a blog post API using OpenAPI Specification."
+              }
+            },
+            "PatchPost": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "The post id."
+                },
+                "userId": {
+                  "type": "string",
+                  "description": "The post userId."
+                },
+                "title": {
+                  "type": "string",
+                  "description": "The title of the post"
+                },
+                "body": {
+                  "type": "string",
+                  "description": "The body content of the post"
+                }
+              }
+            },
+            "Comments": {
+              "description": "The array of comment objects",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Comment"
+              },
+              "example": [
+                {
+                  "postId": 1,
+                  "id": 1,
+                  "name": "id labore ex et quam laborum",
+                  "email": "Eliseo@gardner.biz",
+                  "body": "laudantium enim quasi est quidem magnam voluptate"
+                },
+                {
+                  "postId": 1,
+                  "id": 2,
+                  "name": "quo vero reiciendis velit similique earum",
+                  "email": "Jayne_Kuhic@sydney.com",
+                  "body": "est natus enim nihil est dolore omnis voluptatem"
+                },
+                {
+                  "postId": 1,
+                  "id": 3,
+                  "name": "odio adipisci rerum aut animi",
+                  "email": "Nikita@garfield.biz",
+                  "body": "quia molestiae reprehenderit quasi aspernatur"
+                }
+              ]
+            },
+            "Comment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "The comment id."
+                },
+                "postId": {
+                  "type": "string",
+                  "description": "The comment postId."
+                },
+                "name": {
+                  "type": "string",
+                  "description": "The name of the comment."
+                },
+                "email": {
+                  "type": "string",
+                  "description": "The email of the user who posted the comment."
+                },
+                "body": {
+                  "type": "string",
+                  "description": "The comment body."
+                }
+              },
+              "example": {
+                "id": 1,
+                "postId": 1,
+                "name": "The first comment",
+                "email": "example@example.com",
+                "body": "This is the first comment!"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-redoc": {},
+  "@cmfcmf/docusaurus-search-local": {},
+  "docusaurus-theme-live-codeblock": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "dev-docs/development/backend-customization/controllers",
+  "id": "dev-docs/development/backend-customization/controllers",
+  "title": "Controllers",
+  "description": "Controllers are JavaScript files that contain a set of methods, called actions, reached by the client according to the requested route. Whenever a client requests the route, the action performs the business logic code and sends back the response. Controllers represent the C in the model-view-controller (MVC) pattern.",
+  "source": "@site/docs/dev-docs/development/backend-customization/controllers.md",
+  "sourceDirName": "dev-docs/development/backend-customization",
+  "slug": "/dev-docs/development/backend-customization/controllers",
+  "permalink": "/docs/next/dev-docs/development/backend-customization/controllers",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/development/backend-customization/controllers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devDocsSidebar",
+  "previous": {
+    "title": "Welcome!",
+    "permalink": "/docs/next/hello"
+  },
+  "next": {
+    "title": "Middlewares",
+    "permalink": "/docs/next/dev-docs/development/backend-customization/middlewares"
+  }
+}

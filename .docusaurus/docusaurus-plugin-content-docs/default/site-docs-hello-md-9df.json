@@ -1,0 +1,25 @@
+{
+  "unversionedId": "hello",
+  "id": "hello",
+  "title": "Welcome to the Strapi Developer Docs!",
+  "description": "You're reading the bleeding edge version of our documentation. Some features might still be buggy.",
+  "source": "@site/docs/hello.md",
+  "sourceDirName": ".",
+  "slug": "/hello",
+  "permalink": "/docs/next/hello",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/docs/hello.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Welcome!",
+    "displayed_sidebar": "devDocsSidebar",
+    "sidebar_position": 1
+  },
+  "sidebar": "devDocsSidebar",
+  "next": {
+    "title": "Controllers",
+    "permalink": "/docs/next/dev-docs/development/backend-customization/controllers"
+  }
+}

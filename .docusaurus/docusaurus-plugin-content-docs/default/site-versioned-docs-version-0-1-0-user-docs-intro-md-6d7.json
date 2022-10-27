@@ -1,0 +1,23 @@
+{
+  "unversionedId": "user-docs/intro",
+  "id": "version-0.1.0/user-docs/intro",
+  "title": "Welcome to the Strapi User Guide!",
+  "description": "This user guide contains the functional documentation related to all features available in the admin panel of your Strapi application.",
+  "source": "@site/versioned_docs/version-0.1.0/user-docs/intro.md",
+  "sourceDirName": "user-docs",
+  "slug": "/user-docs/intro",
+  "permalink": "/docs/user-docs/intro",
+  "draft": false,
+  "editUrl": "https://github.com/pwizla/documentation/versioned_docs/version-0.1.0/user-docs/intro.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {
+    "displayed_sidebar": "userDocsSidebar",
+    "sidebar_label": "Welcome!"
+  },
+  "sidebar": "userDocsSidebar",
+  "next": {
+    "title": "Introduction to the Content-type Builder",
+    "permalink": "/docs/user-docs/content-types-builder/introduction-to-content-types-builder"
+  }
+}

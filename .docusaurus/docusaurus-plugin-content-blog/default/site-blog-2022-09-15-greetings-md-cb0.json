@@ -1,0 +1,60 @@
+{
+  "permalink": "/blog/greetings",
+  "editUrl": "https://strapi.io/blog/blog/2022-09-15-greetings.md",
+  "source": "@site/blog/2022-09-15-greetings.md",
+  "title": "Greetings!",
+  "description": "Congratulations, you have made your first post!",
+  "date": "2022-09-15T00:00:00.000Z",
+  "formattedDate": "September 15, 2022",
+  "tags": [
+    {
+      "label": "greetings",
+      "permalink": "/blog/tags/greetings"
+    }
+  ],
+  "readingTime": 0.1,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Joel Marcey",
+      "title": "Co-creator of Docusaurus 1",
+      "url": "https://github.com/JoelMarcey",
+      "image_url": "https://github.com/JoelMarcey.png",
+      "imageURL": "https://github.com/JoelMarcey.png"
+    },
+    {
+      "name": "Sébastien Lorber",
+      "title": "Docusaurus maintainer",
+      "url": "https://sebastienlorber.com",
+      "image_url": "https://github.com/slorber.png",
+      "imageURL": "https://github.com/slorber.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "greetings",
+    "title": "Greetings!",
+    "authors": [
+      {
+        "name": "Joel Marcey",
+        "title": "Co-creator of Docusaurus 1",
+        "url": "https://github.com/JoelMarcey",
+        "image_url": "https://github.com/JoelMarcey.png",
+        "imageURL": "https://github.com/JoelMarcey.png"
+      },
+      {
+        "name": "Sébastien Lorber",
+        "title": "Docusaurus maintainer",
+        "url": "https://sebastienlorber.com",
+        "image_url": "https://github.com/slorber.png",
+        "imageURL": "https://github.com/slorber.png"
+      }
+    ],
+    "tags": [
+      "greetings"
+    ]
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}
